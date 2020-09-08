@@ -11,7 +11,7 @@ async function pageStudy(req, res){
     const filters = req.query
 
     if (!filters.subject || !filters.weekday || !filters.time) {
-        return res.render("study.html", {proffys, filters, subjects, weekdays})
+        return res.render("study.html", {filters, subjects, weekdays})
     }
     //converter horas em minutos
     const timeToMinutes = convertHoursToMinutes(filters.time)
