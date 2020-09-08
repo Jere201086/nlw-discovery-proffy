@@ -1,29 +1,26 @@
 # nlw-discovery-proffy
 
-Este projeto foi desenvolvido durante a NLW (Next Level Week), evento promovido pela RocketSeat e é um aplicativo para conectar professores e alunos
+Este projeto foi desenvolvido durante a NLW (Next Level Week), evento promovido pela RocketSeat e é um aplicativo  responsivo para conectar professores e alunos. Baseado em NodeJS, HTML5 e CSS3.
 
-![](./example.png)
+![](./readme-img/Screenshot_1.png)
 
+![](./readme-img/Screenshot_2.png) ![](./readme-img/Screenshot_3.png) ![](./readme-img/Screenshot_4.png)
 ## Instalação
 
-OS X & Linux: 
-Vá até a pasta onde o repositótio foi clonado execute o lite-server
+Clone o repositorio com o comando 
 ```sh
-npx lite-server
-``` 
-
-Windows: 
-Vá até a pasta onde o repositótio foi clonado e com o git bash execute o lite-server
-```sh
-npx lite-server
+git clone https://github.com/Jere201086/nlw-discovery-proffy.git
 ```
-Com o lite-server rodando basta abrir o browser e ir para a URL 
-http://localhost:3000
+O projeto depende do Databas SQLite instalado. Após executar o clone va até a pasta clonada e no VSCode instale o SQLite extension.
+
+
 
 ## Configuração para Desenvolvimento
 
-O presente projeto não possui nenhuma dependencia, por se tratar de um mini-app tem varias funcionalidades não implementadas, por favor fique a vontade para sugerir melhorias.
-
+Para configurar e começar a executar esse projeto execute o seguinte comando via <br>terminal dentro da pasta do projeto clonado
+```sh
+npm install --save
+```
 
 ## Histórico de lançamentos
 
@@ -40,7 +37,7 @@ Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 
 ## Contributing
 
-1. Faça o _fork_ do projeto (<https://github.com/Jere201086/cropp-image-tool/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/Jere201086/nlw-discovery-proffy/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
@@ -52,7 +49,7 @@ Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/Jere201086/cropp-image-tool/wiki
+[wiki]: https://github.com/Jere201086/nlw-discovery-proffy/wiki
 
 
 
