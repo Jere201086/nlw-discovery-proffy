@@ -1,10 +1,18 @@
 # nlw-discovery-proffy
 
-Este projeto foi desenvolvido durante a NLW (Next Level Week), evento promovido pela RocketSeat e é um aplicativo  responsivo para conectar professores e alunos. Baseado em NodeJS, HTML5 e CSS3.
+Este projeto foi desenvolvido durante a NLW (Next Level Week), evento promovido pela RocketSeat e é um aplicativo  responsivo para conectar professores e alunos.
 
 ![](./readme-img/Screenshot_1.png)
 
-![](./readme-img/Screenshot_2.png) ![](./readme-img/Screenshot_3.png) ![](./readme-img/Screenshot_4.png)
+## Tecnologias
+* NodeJS
+* Express
+* Nunjucks
+* HTML5
+* CSS3
+* SQLite
+
+
 ## Instalação
 
 Clone o repositorio com o comando 
